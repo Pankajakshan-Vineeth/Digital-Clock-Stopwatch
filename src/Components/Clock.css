@@ -1,0 +1,23 @@
+body, html {
+    height: 100%;
+    margin: 0;
+}
+
+.page-wrapper {
+    display: flex;
+    justify-content: center; /* center horizontally */
+    align-items: center;     /* center vertically */
+    height: 100vh;
+    background-color: #1e1e1e; /* or your background */
+}
+
+.clock-container {
+    width: 640px;
+    background: white;
+    color: #262626;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    border-radius: 10px;
+    padding: 40px 50px;
+}
